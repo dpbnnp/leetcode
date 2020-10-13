@@ -1,0 +1,12 @@
+this file records the leetcode about divide and conquer.
+when it comes to divide and conquer, we should kown that it has three characteristics, as follow:
+1.the subquestion has the same character as the orignal question;
+2.we should slove the subquestion independently as possible as we can;
+3.when we divide the subquestion, we should divide them as equally as we can.
+the fake code of divide and conquer can be summerized as follow:
+divide-and-conquer(P):
+1.if |p|<=c the S(p)
+2.devide P into p1,p2,p3,...,pk
+3.for i<-1 to k
+4.  yi=divide-and-conquer(pi)
+5.return merge(p1,p2,p3,...,pk)
